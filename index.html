@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador/Codificador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <div class="container">
+        <header>
+            <h1>Decodificador & Codificador</h1>
+            <button id="back-btn" class="back-button"><strong>Voltar</strong></button>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <textarea id="input-text" rows="5" placeholder="Digite o texto aqui..."></textarea>
+                <p class="warning-text">* Utilize apenas letras minúsculas e sem caracteres especiais.</p>
+            </section>
+
+            <section class="button-section">
+                <button id="encrypt-btn" class="primary-button"><strong>Criptografar</strong></button>
+                <button id="decrypt-btn" class="secondary-button"><strong>Descriptografar</strong></button>
+            </section>
+
+            <section class="output-section">
+                <textarea id="output-text" rows="5" readonly placeholder="O resultado aparecerá aqui..."></textarea>
+                <button id="copy-btn" class="copy-button"><strong>Copiar</strong></button></button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Ana Luísa. <br>2024.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
